@@ -1,0 +1,12 @@
+#box1 {
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+	margin-bottom: 25px;
+}
+
+#box2 {
+	width: 200px;
+	height: 200px;
+	border: 2px solid black;
+}
