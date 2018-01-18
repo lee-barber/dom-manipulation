@@ -1,5 +1,7 @@
-document.addEventListener('keypress', (event) => {
-  const keyName = event.key;
+document.addEventListener('keydown', function(event) {
 
-  alert('keypress event\n\n' + 'key: ' + keyName);
+  var x = event.keyCode;
+  var y = String.fromCharCode(x);
+  document.getElementById("_h_").innerHTML = y
+
 });
